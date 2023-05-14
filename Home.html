@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Resume</title>
+        <link rel="icon" type="image/x-icon" href="icon.png">
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color:lavender;
+                width: 100%;
+                border-radius: 25px;
+            }
+
+            li {
+                float: right;
+            }
+
+            li a {
+                display: block;
+                color: black;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active) {
+                color:grey;
+            }
+            .ldata{
+                margin-left: 2%;
+                width:40%;
+                height: 100%;
+                float : left;
+            }
+            .mdata{
+                margin-left: 30%;
+                width:50%;
+            }
+            .rdata{
+                margin-right: 2%;
+                width:40%;
+                height:100%;
+                float:right;
+            }
+            .btn {
+                border: none;
+                padding: 14px 28px;
+                font-size: 16px;
+                background-color:orange;
+                border-radius:25px;
+            }
+            a{
+                text-decoration: none;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                text-align: left;
+            }
+            footer {   
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li style = "float:left;margin-left: 10px"><a href = "#Portfolio"><em><h2>Portfolio</h2></em></a></li>
+            <li style = "margin-right: 15px;"><a href="#contact"><em><h2>Contact</h2></em></a></li>
+            <li style = "margin-right: 25px;"><a href="#intrest"><em><h2>Interest</h2></em></a></li>
+            <li style = "margin-right: 25px;"><a href="#project"><em><h2>Projects</h2></em></a></li>
+            <li style = "margin-right: 25px;"><a href="#education"><em><h2>Education</h2></em></a></li>
+            <li style = "margin-right: 25px;"><a href="#skills"><em><h2>Skills</h2></em></a></li>
+            <li style = "margin-right: 25px;"><a href="#about"><em><h2>About</h2></em></a></li>
+        </ul>
+        <section id = "Portfolio" style = "margin-bottom: 10;">
+            <fieldset style = "margin-top: 80px; border:none">
+                <div>
+                    <div class = ldata>
+                        <img src = "profile.jpeg" width =  100% style = "border-radius: 25px;">
+                    </div>
+                    <div class = rdata style = "margin-top:5%;">
+                        <h1 style = "font-weight: normal;"><center><em>Hi!</em></center></h1>
+                        <h1><center><em>I'm Kishore</em></center></h1>
+                        <h1 style = "font-weight: normal;"><center><em>Design Thinking and an efficient thinker.</em></center></h1>
+                        <center>
+                            <a href = "https://github.com/KISHOREM28"><img src = "github.png"></a>
+                            <a href = "https://www.linkedin.com/in/Kishore21/"><img src = "linkedin.png"></a>
+                        </center><br>
+                        <center><button class="btn"><a href = "#contact">Contact &#8594;</a></button></center>
+                    </div>
+                </div>
+                </fieldset>
+        </section>
+            <section id="about">
+                <fieldset style = "border:none">
+                    <center><h1><em>About</em></h1><hr style = "width:10%; height: 3px; background-color: orange;"></center><br>
+                    <div class = "ldata" style = "margin-left: 150px; width:40%; margin-top: 3%;">
+                        <center><h1><em>Hello! I'm Kishore </em></h1></center>
+                        <h2 style = "font-weight: normal;"><em>Am an efficient fast learner. Adaptable to every situation. Flexible accourding to the project needs. Having a good communication and presentation skills. </em></h2><br>
+                        <h2 style = "font-weight: normal;"><em>Age : 21</em></h2>
+                        <h2 style = "font-weight: normal;"><em>Email ID : kishorem.20eie@kongu.edu</em></h2>
+                        <h2 style = "font-weight: normal;"><em>Phone : +91 96006 75233</em></h2>
+                        <h2 style = "font-weight: normal;"><em>Address : Tamilnadu , India</em></h2>
+                        <h2 style = "font-weight: normal;"><em>Status : Student</em></h2>
+                    </div>
+                    <div class = "rdata">
+                        <img src = "avatar flip.jpeg" width = "100%" style = "border-radius: 50px;">
+                    </div>
+                </fieldset>
+            </section>
+            <section id="skills">
+                <fieldset style = "border:none;">
+                    <center><em><h1>My Skills</h1></em><hr style = "width:10%; height: 3px; background-color: orange;"></center><br>
+                    <fieldset style = "background-color: lightgray; border-radius: 25px;">
+                        <div class = "ldata" >
+                            <h2><em><center>Design Thinking - 80%</center></em></h2>
+                            <center><progress value="80" max="100" style = "width : 100%; height:50px"></progress></center>
+                            <h2><em><center>PCB Makinig - 75%</center></em></h2>
+                            <center><progress value="75" max="100" style = "width : 100%; height:50px"></progress></center>
+                            <h2><em><center>PLC - 70%</center></em></h2>
+                            <center><progress value="70" max="100" style = "width : 100%; height:50px"></progress></center>
+                            <h2><em><center>IoT - 60%</center></em></h2>
+                            <center><progress value="60" max="100" style = "width : 100%; height:50px"></progress></center>
+                        </div>
+                        <div class = "rdata" >
+                            <h2><em><center>Electrical Components - 80%</center></em></h2>
+                            <center><progress value="80" max="100" style = "width : 100%; height:50px"></progress></center>
+                            <h2><em><center>Electronic Devices - 75%</center></em></h2>
+                            <center><progress value="75" max="100" style = "width : 100%; height:50px"></progress></center>
+                            <h2><em><center>Cloud - 70%</center></em></h2>
+                            <center><progress value="70" max="100" style = "width : 100%; height:50px"></progress></center>
+                            <h2><em><center>HTML & CSS - 25%</center></em></h2>
+                            <center><progress value="25" max="100" style = "width : 100%; height:50px"></progress></center>
+                        </div>
+                    </fieldset>
+                </fieldset>
+            </section>
+            <section id="education">
+                <fieldset style = "border:none">
+                    <center><em><h1>Education</h1></em><hr style = "width:10%; height: 3px; background-color: orange;"></center><br>
+                    <div class = "ldata">    
+                        <fieldset style = " border-radius: 25px;">
+                            <div style="float:left">
+                                <em><h2 style = "margin-left: 30px; color: purple;">Dept of EIE Science</h2></em>
+                                <em><p style = "margin-left: 30px;">Kongu Engineering College</p></em>
+                            </div>
+                            <div style="float:right; margin-top: 30px;">
+                                <img src = "degree.png" style = "margin-right: 30px;">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class = "rdata">    
+                        <fieldset style = " border-radius: 25px;">
+                            <div style="float:left">
+                                <em><h2 style = "margin-left: 30px;"><a href = "diploma_marksheet.pdf">Diploma in I&C Eng.</a></h2></em>
+                                <em><p style = "margin-left: 30px;">Kongu Polytechnic College</p></em>
+                            </div>
+                            <div style="float:right; margin-top: 30px;">
+                                <img src = "degree.png" style = "margin-right: 30px;">
+                            </div>
+                        </fieldset>
+                    </div>
+                </fieldset>
+            </section>
+            <section id="project">
+                <fieldset style = "border:none">
+                    <center><em><h1>Projects</h1></em><hr style = "width:10%; height: 3px; background-color: orange;"></center><br>
+                    <div class = "ldata" style = "width:40%; margin-left: 5%;">    
+                        <table>
+                            <tr><th style = "border-top-right-radius: 25px;border-top-left-radius: 25px;border-bottom: none;background-color: lightblue;"><h1 style = "float:left; margin-left: 5%;margin-top: 5%;"><em><center><a href = "honey.pdf">Advanced Honey Hives <br>control monitor system</a></center></em></h1><img src = "honey.png" style = "float:right ; margin-right:2%;"></th></tr>
+                            <tr><td style = "border-color:lightgray; border-style:solid;border-width: 3px;border-top: none;border-radius: 25px;"><h3><em><center>This can be used to control and monitor hives.<br><br></center></em></h3></td></tr>
+                        </table>
+                    </div>
+                    <div class = "rdata" style = "width:40%; margin-left: 5%;">       
+                        <table>
+                            <tr><th style = "border-top-right-radius: 25px;border-top-left-radius: 25px;border-bottom: none;background-color: lightblue;"><h1 style = "float:left; margin-left: 5%;margin-top: 5%; margin-bottom: 5%;"><em><center><a href = "palm.pdf">Advanced palm jaggery manufacturing unit</a></center></em></h1><img src = "palm tree.png" style = "float:right ; margin-right:2%; margin-top: 1%; width: 10%;"></th></tr>
+                            <tr><td style = "border-color:lightgray; border-style:solid;border-width: 3px;border-top: none;border-radius: 25px;"><h3><em><center>This is a manufacturing project which can be used for cottage industry to make their productions faster<br><br></center></em></h3></td></tr>
+                        </table>
+                        <br><br>
+                    </div>
+                </fieldset>
+            </section>
+
+            <section id="intrest">
+                <fieldset style = "border:none">
+                    <center><em><h1>Interests</h1></em><hr style = "width:10%; height: 3px; background-color: orange;"></center>
+                    <img src = "badminton.png" width = 10% style = "margin-left:10%">
+                    <img src = "projects.png" width = 10% style = "margin-left:25%">
+                    <img src = "travel.jpg" width = 20% style = "margin-left:20%">
+                </fieldset>
+            </section>
+            <section id="contact">
+                <fieldset style = "border: none;">
+                    <center><em><h1>Contact</h1></em><hr style = "width:10%; height: 3px; background-color: orange;"></center><br>
+                    <div class = "ldata">
+                        <center><em><h2>Hi!</h2></em></center>
+                        <center><em><p style  = "font-size: larger;">If you like my work and want to offer me a job (or) consider me for an interview, then drop me a message using the contact details.</p></em></center>
+                    </div>
+                    <div class = "rdata">
+                        <center><em><h2>Email ID : <a href="mailto:kishorem.20eie@kongu.edu">Kishore</a></h2></em></center>
+                        <center><em><h2>Phone : <a href = "tel:+919600675233">+91-960-067-5233</a><h2></em></center>
+                    </div>              
+                </fieldset>
+            </section>
+    </body>
+    <footer>
+        <h3><em>&copy; Kishore. All Rights Reserved</em></h3>
+    </footer>
+</html>
